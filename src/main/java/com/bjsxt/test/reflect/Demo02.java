@@ -4,6 +4,9 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
+/**
+ * 通过反射获得相关信息
+ */
 public class Demo02 {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException, NoSuchMethodException {
         String path = "com.bjsxt.test.reflect.User";
