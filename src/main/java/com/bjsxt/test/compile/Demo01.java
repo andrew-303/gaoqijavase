@@ -51,7 +51,10 @@ public class Demo01 {
             Class<?> javaComplie = loader.loadClass("JavaComplie");
             //调用加载类的main方法
             Method main = javaComplie.getMethod("main", String[].class);
-            main.invoke(null, (Object) new String[]{});
+            //这里的参数null表示调哪个对象的方法
+            // 是因为原main方法是个静态的方法，所以不需要传入对象来调用，所以可以传空
+            //main.invoke(null, (Object) new String[]{});
+            main.invoke(javaComplie, (Object) new String[]{});
 
 
         } catch (MalformedURLException e) {
