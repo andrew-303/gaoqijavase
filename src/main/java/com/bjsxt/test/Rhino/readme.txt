@@ -1,0 +1,2 @@
+1、Rhino是一种使用Java语言开发的JavaScript的开源实现，现在被集成进Jdk6.0
+2、提供功能：脚本引擎执行javascript
