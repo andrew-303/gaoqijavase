@@ -1,0 +1,9 @@
+package com.bjsxt.designpattern.factory.simplefatory;
+
+public class Audi implements Car {
+
+    @Override
+    public void run() {
+        System.out.println("奥迪在跑！");
+    }
+}
