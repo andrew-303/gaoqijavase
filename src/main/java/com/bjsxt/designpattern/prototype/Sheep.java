@@ -1,11 +1,12 @@
 package com.bjsxt.designpattern.prototype;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
- * 实现原型模式的千复制
+ * 实现原型模式的浅复制
  */
-public class Sheep implements Cloneable{
+public class Sheep implements Cloneable , Serializable {
     private String name;
     private Date bidtyday;
 
