@@ -1,4 +1,6 @@
-package com.bjsxt.designpattern.proxy.staticproxy;
+package com.bjsxt.designpattern.proxy.dynamicproxy;
+
+
 
 /**
  * 真实处理的类

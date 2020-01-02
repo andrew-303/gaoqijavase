@@ -1,5 +1,8 @@
 package com.bjsxt.designpattern.proxy.staticproxy;
 
+/**
+ * 代理类
+ */
 public class ProxyStar implements Star {
 
     private Star star;
